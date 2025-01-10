@@ -22,7 +22,7 @@ body{
 
     background-image: url(energum_logo.webp), url(odin.png), linear-gradient(to right, rgba(0, 0, 255, 0.3), rgba(60, 179, 113, 0.3));
     background-position: center, bottom;
-    background-size: contain, 200px;
+    background-size: contain, 125px;
     background-repeat: no-repeat;
 
     justify-content: center;
