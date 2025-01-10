@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 62.5%;
+
+}
+
+/*Banner side styling */
+
+
+.image-container{
+    width: 30%;
+
+
+    background-image: url(energum_logo.webp), url(odin.png), linear-gradient(to right, rgba(0, 0, 255, 0.3), rgba(60, 179, 113, 0.3));
+    background-position: center, bottom;
+    background-size: contain, 200px;
+    background-repeat: no-repeat;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+    /* margin-right: 1%; */
+}
+
+/*form side styling */
+
+.form-text-container{
+    font-size: 1.1rem;
+    /* min-width: 40%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+    
+}
+
+/*form hero styling */
+
+.form-hero{
+    font-size: 1.8rem;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    padding-left: 2%;
+    
+}
+
+/*form input styling */
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    padding-right: 60%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0 3px 10px rgba(60, 179, 113, 0.5), 0px -4px 10px rgba(0, 0, 255, 0.5);;
+    
+}
+
+
+.form-content  h1{
+    font-size: 1.6rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap:2rem;
+    column-gap:5%;
+    
+    
+}
+
+.form-input > * {
+    font-size: 1.2rem;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-input input {
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    padding: 10px;
+
+  }
+
+ input:focus {
+    border: 5px solid rgba(60, 179, 113, 0.5);
+    border-radius: 3px;
+    padding: 7px;
+    box-shadow: 0px 4px 10px rgba(60, 179, 113, 0.5), 0px -4px 10px rgba(0, 0, 255, 0.5);
+
+  }
+
+  .form-input input[type='email']:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none;
+  }
+
+
+
+
+
+
+/*form footer styling */
+
+
+
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+    padding-bottom: 40%;
+    padding-left: 2%;
+}
+
+button{
+
+    width: 20%;
+    padding-top: 0.5%;
+    padding-bottom:  0.5%;
+
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.5), rgba(60, 179, 113, 0.5));
+}
+
+.form-footer-content{
+    font-size: 1.3rem;
+}
+
+.form-footer-content em{
+    font-weight: bold;
+    color: green;
+}
+
+
+
+
